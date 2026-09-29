@@ -1,0 +1,48 @@
+カチッとメモ Version 1.0 — 初回公開手順
+
+これは新規アプリ用の完全ファイルセットです。
+既存アプリへの差し替えは不要です。
+
+【おすすめリポジトリ名】
+kachitto-memo
+
+【GitHubへアップロードするファイル】
+・index.html
+・sw.js
+・manifest.webmanifest
+・icon-192.png
+・icon-512.png
+・apple-touch-icon.png
+・favicon-32.png
+・README.md
+
+「初回公開手順.txt」はGitHubへアップロードしなくてもOKです。
+
+【GitHub Pages公開】
+1. GitHubで Public リポジトリ `kachitto-memo` を新規作成
+2. このフォルダのファイルをアップロード
+3. Settings → Pages
+4. Source：Deploy from a branch
+5. Branch：main
+6. Folder：/(root)
+7. Save
+8. 数分待つ
+
+【公開URL例】
+https://promptaiprotocol.github.io/kachitto-memo/
+
+【アプリ仕様】
+・iPhone標準メモ風UI
+・メモ一覧 → 編集
+・1行目を自動タイトル扱い
+・検索
+・カテゴリ
+・ピン留め
+・自動保存
+・TXT書き出し
+・全メモTXT
+・TXT読み込み
+・本文コピー
+・削除
+・オフライン対応
+・外部API / ログイン / 広告なし
